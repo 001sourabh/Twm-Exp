@@ -14,12 +14,7 @@ app.set('layout extractScripts', true);
 app.use(express.static('assests'));
 // app.use(express.urlencoded());
 
-app.get('/', (req, res) => {
-    return res.render('layout', {
-        title: "xyz"
-    });
-
-})
+app.use('/', require('./routes'));
 
 app.listen(port, () => {
     console.log(`our app listening at http://localhost:${port}`)
