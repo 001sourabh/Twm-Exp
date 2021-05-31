@@ -1,0 +1,268 @@
+/* HOME */
+@media screen and (max-width: 768px) {
+  .home {
+    margin-top: 0px !important;
+  }
+}
+.home {
+  min-height: 100vh;
+  margin-top: -100px;
+  padding: 80px 0 80px 0px;
+  background-color: black;
+  position: relative;
+  z-index: 1;
+}
+.home-text h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+  margin: 0 0 20px;
+}
+
+.home-text p {
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  margin: 0;
+  font-weight: 300;
+}
+.home .home-btn {
+  margin-top: 40px;
+}
+.home-img img {
+  height: 60vh;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.custom-shape-divider-bottom-1622452865 {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1622452865 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 121px;
+}
+
+.custom-shape-divider-bottom-1622452865 .shape-fill {
+  fill: #ffffff;
+}
+
+/* ABOUT US */
+
+.about-title {
+  margin-bottom: 60px;
+}
+.about-title h1 {
+  font-size: 50px;
+  color: black;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0;
+}
+
+.about-paragraph {
+  font-size: 20px;
+  text-align: center;
+}
+/* FUN FACTS */
+
+.fun-facts {
+  background-color: black;
+}
+.fun-facts-title h2 {
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  margin: 0;
+}
+
+.fun-facts .fun-facts-title h2 {
+  text-align: left;
+}
+.fun-facts-img img {
+  max-width: 350px;
+  height: 50vh;
+  width: 100%;
+}
+
+.fun-facts-text p {
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+  margin: 0 0 15px;
+  font-weight: 300;
+}
+
+.fun-fact-item {
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.fun-fact-item h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  margin: 0 0 5px;
+}
+.fun-fact-item span {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+  line-height: 26px;
+  display: block;
+  color: black;
+}
+
+.fun-fact-item.style-1 {
+  background-color: white;
+}
+.fun-fact-item.style-1:hover {
+  background-color: greenyellow;
+}
+/* TESTIMONIAL */
+
+.testimonial-title {
+  font-size: 50px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  margin: 0;
+}
+
+.card-body p {
+  font-size: 20px;
+  line-height: 33px !important;
+  color: #fff;
+}
+
+.small {
+  letter-spacing: 0.5px !important;
+}
+
+.card {
+  box-shadow: 0px 5px 16px rgba(223, 241, 223, 0.5);
+  transition: 0.8s;
+  background: #333;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 7px !important;
+}
+
+.card-header,
+.card-footer {
+  border-radius: 7px !important;
+}
+
+.card:after {
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 100%;
+  z-index: 9999;
+  height: 100%;
+  pointer-events: none;
+}
+
+.card-title img {
+  z-index: 99999 !important;
+}
+
+.card .layer {
+  position: absolute;
+  top: calc(100% - 5px);
+  width: 100%;
+  height: 100%;
+  background-color: greenyellow;
+  left: 0;
+  z-index: 1;
+  transition: 0.5s;
+}
+.card small {
+  color: white;
+}
+
+.card:hover hr {
+  background-color: black;
+}
+
+.card:hover h4 {
+  font-weight: 600;
+  color: black;
+}
+
+.card:hover p {
+  font-weight: 600;
+  color: black;
+}
+
+.card:hover small {
+  font-weight: 600;
+  color: black;
+}
+
+.card:hover .layer {
+  top: 0;
+}
+
+.card .content {
+  position: relative;
+  z-index: 2;
+}
+
+.card .content .img-1 {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid white !important;
+}
+
+.card h4 {
+  color: #fff;
+  font-weight: 500;
+}
+
+hr {
+  background-color: rgb(117, 117, 117);
+  width: 80% !important;
+  transition: 1s;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+#quotes {
+  opacity: 0.1;
+  filter: alpha(opacity=40);
+}
+
+@media (max-width: 479px) {
+  p {
+    padding: 0 !important;
+  }
+
+  .img-1 {
+    margin-right: 0 !important;
+  }
+}
